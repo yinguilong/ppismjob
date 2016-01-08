@@ -1,0 +1,40 @@
+﻿@using Nancy.Helpers
+@using PPismJob.Web.VewModels.QuartzConsole
+@{
+    Layout = "Shared/_layout.cshtml";
+    ViewBag.title = "Job statuses";
+}
+<table class="table table-bordered">
+    <caption>Quartz - PPism Job list</caption>
+    <thead>
+        <tr>
+            <th>服务名称</th>
+            <th>上次运行</th>
+            <th>下次运行</th>
+            <th>是否运行</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (JobGroupViewModel g in Model.Groups)
+        {
+        @foreach (var i in g.JobDetails)
+        {
+        <tr>
+            <td>@i.JobKey</td>
+            <td>@i.LastRun</td>
+            <td>@i.NextScheduledRun</td>
+            <td>@i.IsRunning</td>
+            <td>
+                <form method="POST" class="form-inline"
+                      action="@Url.Content(string.Format("~/quartzconsole/trigger/{0}/{1}/", HttpUtility.UrlEncode(i.SchedulerName), HttpUtility.UrlEncode(i.JobKey.ToString())))">
+                <input type="submit" class="btn" value="立即执行" />
+                </form>
+            </td>
+        </tr>
+
+        }
+        }
+
+    </tbody>
+</table>

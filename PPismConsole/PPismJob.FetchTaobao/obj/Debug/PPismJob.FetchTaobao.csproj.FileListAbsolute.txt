@@ -1,0 +1,6 @@
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchTaobao.dll
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchTaobao.pdb
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchTaobao\obj\Debug\PPismJob.FetchTaobao.dll
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchTaobao\obj\Debug\PPismJob.FetchTaobao.pdb
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchTaobao\obj\Debug\PPismJob.FetchTaobao.csprojResolveAssemblyReference.cache
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchTaobao.dll.config

@@ -1,0 +1,6 @@
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchJD.dll
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchJD.pdb
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchJD\obj\Debug\PPismJob.FetchJD.csprojResolveAssemblyReference.cache
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchJD\obj\Debug\PPismJob.FetchJD.dll
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchJD\obj\Debug\PPismJob.FetchJD.pdb
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchJD.dll.config

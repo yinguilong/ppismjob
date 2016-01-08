@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 				version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>false</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+
+    <job>
+      <name>FetchTM</name>
+      <group>FetchTaobao</group>
+      <description>yinguilong</description>
+      <job-type>PPismJob.FetchTaobao.FetchTM, PPismJob.FetchTaobao</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <trigger>
+       <cron>
+        <name>FetchTM</name>
+        <group>FetchTaobao</group>
+        <job-name>FetchTM</job-name>
+        <job-group>FetchTaobao</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 35 9 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <job>
+      <name>FetchJDSelf</name>
+      <group>FetchJD</group>
+      <description>FetchJDSelf jingdongziying</description>
+      <job-type>PPismJob.FetchJD.FetchJDSelf, PPismJob.FetchJD</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>FetchJDSelf</name>
+        <group>FetchJD</group>
+        <job-name>FetchJDSelf</job-name>
+        <job-group>FetchJD</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 35 9 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <job>
+      <name>FetchYHD</name>
+      <group>FetchYHD</group>
+      <description>FetchYHD</description>
+      <job-type>PPismJob.FetchYHD.FetchYHD, PPismJob.FetchYHD</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>FetchYHD</name>
+        <group>FetchYHD</group>
+        <job-name>FetchYHD</job-name>
+        <job-group>FetchYHD</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 35 9 * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

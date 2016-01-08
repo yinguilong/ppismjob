@@ -1,0 +1,6 @@
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchYHD.dll.config
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchYHD.dll
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.HostApplication\bin\Debug\PPismJob.FetchYHD.pdb
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchYHD\obj\Debug\PPismJob.FetchYHD.csprojResolveAssemblyReference.cache
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchYHD\obj\Debug\PPismJob.FetchYHD.dll
+E:\GitHub\PPismConsole\PPismConsole\PPismJob.FetchYHD\obj\Debug\PPismJob.FetchYHD.pdb

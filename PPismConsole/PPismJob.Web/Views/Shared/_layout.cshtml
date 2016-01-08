@@ -1,0 +1,18 @@
+﻿@using System
+@using PPismJob.Web.VewModels.QuartzConsole
+@using PPismJob.Web.Views
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quartz - @ViewBag.machineName @ViewBag.title</title>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.js")"> </script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/bootstrap.js")"> </script>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/bootstrap.css")">
+    @RenderSection("head", false)
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>
+</html>
